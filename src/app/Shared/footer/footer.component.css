@@ -1,0 +1,39 @@
+footer ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    margin: 0 30px;
+}
+footer ul li:nth-of-type(1) {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: left;
+    color: #0D0D0D;
+}
+
+footer ul span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 64px;
+    padding-top: 10px;
+}
+
+footer ul span svg {
+    width: 24px;
+    height: 24px;
+}
+
+.copyright {
+    background-color: #0D0D0D;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    text-align: center;
+}

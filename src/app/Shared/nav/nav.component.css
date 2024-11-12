@@ -1,0 +1,38 @@
+nav {
+    background-color: #0D0D0D;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    margin: 15px 30px;
+}
+
+nav ul li:nth-of-type(1) {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: left;
+    color: #FFCF4D;
+}
+
+nav ul span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 64px;
+    padding-top: 10px;
+}
+
+nav ul span svg {
+    width: 24px;
+    height: 24px;
+}

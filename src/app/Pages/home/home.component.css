@@ -1,0 +1,198 @@
+.hero {
+    background-image: url(../../../assets/icons/bg.svg);
+    background-color: #0D0D0D;
+    width: 100%;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+    /* margin-top: 80px; */
+}
+
+.hero::before {
+    content: "";
+    background-color: #ffffff;
+    width: 1076px;
+    height: 40px;
+    top: 440px;
+    /* left: 182px; */
+    gap: 0px;
+    position: absolute;
+    margin: 0 auto;
+    clip-path: polygon(7% 0%, 93% 0%, 100% 100%, 0% 100%);
+}
+
+.hero .hero-text {
+    color: #ffffff;
+    text-align: center;
+    width: Hug (659px)px;
+    height: Hug (150px)px;
+    top: 200px;
+    left: 390px;
+    gap: 16px;
+    opacity: 0px;
+}
+
+.hero .hero-text span h1 {
+    font-family: Grenze;
+    font-size: 53px;
+    font-weight: 400;
+    line-height: 72px;
+}
+
+.hero .hero-text span h1 span {
+    font-weight: 500;
+}
+
+.hero .hero-text span p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.hero .hero-text span:nth-of-type(2) {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.projects .title {
+    width: 122px;
+    height: 61.86px;
+    margin: 0 auto;
+}
+
+.projects-grid {
+    width: 85%;
+    height: Hug (1,146.59px)px;
+    display: grid;
+    grid-template-columns: 331px 331px 331px;
+    gap: 40px;
+    justify-content: space-around;
+    margin: 3.5rem auto;
+}
+
+.projects-grid .grid-items {
+    height: Hug (355.53px)px;
+    /* gap: 16px; */
+    /* position: relative; */
+    padding: 1rem;
+    box-shadow: 0px 0px 5px #0d0d0d23;
+    border-radius: 10px;
+}
+.projects-grid .grid-items:hover {
+    background-color: rgba(212, 212, 212, 0.549);
+}
+
+.projects-grid .grid-img img {
+    width: 100%;
+    height: 255.53px;
+}
+
+.projects-grid .grid-items h4 {
+    font-family: Merriweather;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.projects-grid .grid-items span:nth-of-type(1) {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.view-work {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 0.7rem;
+    cursor: pointer;
+}
+.view-work span {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.view-work img ::ng-deep svg {
+    background-color: #0D0D0D;
+}
+
+.publications {
+    background-color: #0D0D0D;
+    height: 1383px;
+    padding: 104px 182px 77px 182px;
+}
+
+.publications h3 {
+    color: #ffffff;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.publications span {
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.publication-grid {
+    display: grid;
+    grid-template-columns: 450px 450px;
+    justify-content: space-between;
+    row-gap: 4rem;
+    margin-top: 2rem;
+}
+.publication-grid .grid-items {
+    height: 504px;
+}
+.publication-grid .grid-items .grid-img img {
+    width: 100%;
+    height: 400px;
+}
+.publication-grid .grid-items h4 {
+    color: #ffffff;
+    font-family: Merriweather;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.publication-grid .grid-items span {
+    color: #FFCF4D;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
